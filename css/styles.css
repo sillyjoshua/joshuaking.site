@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909;
+    color: lightskyblue;
+    font: bold 16px JetBrains-Mono, monospace;
+    text-align: center;
+}
+
+.main {
+    width: min(90vw, 600px);
+    background-color: #090909;
+}
+
+.name,
+.bio,
+.projects,
+.projects-list,
+.goodbye {
+    margin: 0 auto;
+    color: lightskyblue;
+    font: bold 16px JetBrains-Mono, monospace;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.projects-list {
+    padding-left: 0;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.projects-list li {
+    margin: 8px 0;
+}
+
+.button-link {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
